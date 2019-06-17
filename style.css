@@ -1,0 +1,108 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Specifiche Header */
+
+.header1 {
+  height: 40px;
+  border-bottom: 1px grey solid;
+  margin: 0;
+  padding: 0;
+}
+
+.header2 {
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+.hackfloat:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  position: fixed;
+  height: 100px;
+  width: 100vw;
+}
+
+.new {
+  background-color: #00D7D2;
+  margin: 10px 10px 10px 0;
+  padding: 1px 5px;
+  margin-left: 20px;
+  border-radius: 5px;
+  float: left;
+  text-align: center;
+}
+
+header p {
+  float: left;
+  line-height: 40px;
+  font-weight: bold;
+  color: #031B76;
+  margin: 0;
+}
+
+header p:hover {
+  color: #0049FF;
+  cursor: pointer;
+}
+
+.nav1 {
+  float: right;
+  line-height: 40px;
+  font-weight: bold;
+  color: #031B76;
+}
+
+.li {
+  float: left;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.li:hover {
+  color: #0049FF;
+  cursor: pointer;
+}
+
+.logo img {
+  height: 40px;
+  margin: 10px 0;
+}
+
+.logo {
+  float: left;
+}
+
+.nav2 {
+  float: left;
+  line-height: 60px;
+  font-weight: bold;
+  color: #031B76;
+}
+
+.sign {
+  float: right;
+  font-weight: bold;
+  color: #0049FF;
+  background-color: #fff;
+  height: 40px;
+  line-height: 40px;
+  margin: 10px 20px 10px 0;
+  padding: 0 20px;
+  border-radius: 5px;
+  border: 2px solid #0049FF;
+  text-align: center;
+}
+
+.sign:hover {
+  background-color: #0049FF;
+  color: #fff;
+  cursor: pointer;
+}
