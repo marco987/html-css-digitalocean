@@ -28,6 +28,9 @@ header {
   position: fixed;
   height: 100px;
   width: 100vw;
+  top: 0;
+  background-color: #fff;
+  z-index: 1000;
 }
 
 .new {
@@ -109,3 +112,26 @@ header p:hover {
 
 
 /* Specifiche Sezione 1 Welcome */
+
+.sez1 {
+  margin-top: 100px;
+  background-color: #0049FF;
+  height: 100vh;
+}
+
+.welcome {
+  color: #fff;
+  margin-top: 150px;
+}
+
+.welcome h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.deploy {
+  background-color: #fff;
+  border-radius: 10px;
+  height: 100px;
+  margin-top: 100px;
+}
