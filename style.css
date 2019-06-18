@@ -116,7 +116,6 @@ header p:hover {
 .sez1 {
   margin-top: 100px;
   background-color: #0049FF;
-  height: 100vh;
 }
 
 .welcome {
@@ -132,6 +131,48 @@ header p:hover {
 .deploy {
   background-color: #fff;
   border-radius: 10px;
-  height: 100px;
   margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  padding-top: 10px;
 }
+
+.deploy input {
+  display: block;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 5px;
+  height: 50px;
+  padding: 10px;
+}
+
+.create, .sign-up {
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 5px;
+  height: 50px;
+  border: grey solid 1px;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.create:hover, .sign-up:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.create {
+  background-color: #0CB863;
+  color: #fff;
+  border: none;
+}
+
+.terms {
+  width: 90%;
+  margin: 20px auto;
+  font-size: 0.8em;
+}
+
+
+/* Specifiche Sezione 2 Innovative */
