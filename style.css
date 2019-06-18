@@ -176,3 +176,37 @@ header p:hover {
 
 
 /* Specifiche Sezione 2 Innovative */
+
+.sez2 {
+  background-color: #F3F5F9;
+  text-align: center;
+}
+
+.sez2 p {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  color: grey;
+}
+
+.sez2 img {
+  max-width: 100%;
+}
+
+.loghi {
+  text-align: center;
+}
+
+.sez2 a {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0049FF;
+}
+
+.view {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+/* Specifiche Sezione 3 Deploy */
