@@ -111,11 +111,14 @@ header p:hover {
 }
 
 
+
+
 /* Specifiche Sezione 1 Welcome */
 
 .sez1 {
   margin-top: 100px;
-  background-color: #0049FF;
+  background-image: url("img/bg.png");
+  background-size: contain;
 }
 
 .welcome {
@@ -174,6 +177,18 @@ header p:hover {
   font-size: 0.8em;
 }
 
+@media all and (max-width: 991px) {
+  header {
+    display: none;
+  }
+  .sez1 {
+    margin-top: 0;
+  }
+  .welcome {
+    margin-top: 0;
+  }
+}
+
 
 /* Specifiche Sezione 2 Innovative */
 
@@ -190,7 +205,7 @@ header p:hover {
 }
 
 .sez2 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .loghi {
@@ -210,3 +225,49 @@ header p:hover {
 }
 
 /* Specifiche Sezione 3 Deploy */
+
+.sez3 {
+  margin: 100px auto;
+}
+
+.deploy-intro {
+  text-align: center;
+  /* margin-top: 100px; */
+}
+
+.deploy-intro h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.deploy-menu {
+  margin-top: 50px;
+}
+
+.deploy-menu-nav {
+  margin-bottom: 50px;
+}
+
+.deploy-menu li {
+  list-style-type: none;
+  padding-left: 20px;
+  line-height: 45px;
+  font-size: 15px;
+  font-weight: bold;
+  color: grey;
+  border-left: 2px gray solid;
+}
+
+.deploy-menu li:hover {
+  color: #031B76;
+  cursor: pointer;
+  border-left: 3px #031B76 solid;
+}
+
+.deploy-menu h4 {
+  font-weight: bold;
+}
+
+.kubernetes img, .clickapp img, .flexible img, .global img {
+  width: 50px;
+}
