@@ -233,16 +233,12 @@ header p:hover {
 
 .deploy-intro {
   text-align: center;
-  /* margin-top: 100px; */
 }
 
 .deploy-intro h2 {
   font-weight: bold;
   margin-bottom: 20px;
-}
-
-.deploy-menu {
-  margin-top: 50px;
+  color: #031B76;
 }
 
 .deploy-menu-nav {
@@ -272,9 +268,21 @@ header p:hover {
 .kubernetes img, .clickapp img, .flexible img, .global img {
   width: 50px;
 }
-<<<<<<< HEAD
-
 
 /* Specifiche Sezione 4 Designed */
-=======
->>>>>>> 5e53a4817b957ab153ca37692e96636fe3e3e164
+
+.sez4 {
+  margin: 100px auto;
+  background-color: #F3F5F9;
+}
+
+.designed-intro {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.designed-intro h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #031B76;
+}
