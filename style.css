@@ -111,8 +111,6 @@ header p:hover {
 }
 
 
-
-
 /* Specifiche Sezione 1 Welcome */
 
 .sez1 {
@@ -233,6 +231,7 @@ header p:hover {
 
 .deploy-intro {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .deploy-intro h2 {
@@ -272,13 +271,13 @@ header p:hover {
 /* Specifiche Sezione 4 Designed */
 
 .sez4 {
-  margin: 100px auto;
+  padding-top: 100px;
   background-color: #F3F5F9;
 }
 
 .designed-intro {
   text-align: center;
-  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .designed-intro h2 {
